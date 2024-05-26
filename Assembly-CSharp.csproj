@@ -47,12 +47,17 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Services\InputService\MobileInputService.cs" />
      <Compile Include="Assets\Scripts\Hero\HeroAnimator.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\ICoroutineRunner.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\BootstrapState.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\GameStateMachine.cs" />
      <Compile Include="Assets\Scripts\CameraLogic\CameraFollow.cs" />
      <Compile Include="Assets\Scripts\Services\InputService\StandAloneInputService.cs" />
      <Compile Include="Assets\Scripts\Services\InputService\IInputService.cs" />
      <Compile Include="Assets\Scripts\Services\InputService\InputService.cs" />
      <Compile Include="Assets\Scripts\Infrastructure\Game.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\SceneLoader.cs" />
      <Compile Include="Assets\Scripts\Services\Constants.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\IState.cs" />
      <Compile Include="Assets\Scripts\Infrastructure\GameBootstrapper.cs" />
      <Compile Include="Assets\Scripts\Hero\HeroMove.cs" />
      <Folder Include="Assets" />
@@ -81,6 +86,7 @@
      <Folder Include="Assets\Scripts\Services" />
      <Folder Include="Assets\Scenes" />
      <Folder Include="Assets\Resources\Levels\Graveyard" />
+     <Folder Include="Assets\Resources\Infrastructure" />
      <Folder Include="Assets\Resources\Hero" />
      <Folder Include="Assets\Resources\Hero\Heavy Knight PBR\OriginalFiles" />
      <Folder Include="Assets\Resources\Hero\Heavy Knight PBR\Textures\knightPBRGreen" />
