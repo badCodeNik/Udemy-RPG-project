@@ -5,7 +5,7 @@ namespace Infrastructure
     public class Game
     {
         public static IInputService InputService;
-        public  GameStateMachine StateMachine;
+        public readonly GameStateMachine StateMachine;
 
         public Game(ICoroutineRunner coroutineRunner)
         {

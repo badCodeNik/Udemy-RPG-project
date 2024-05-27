@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Services\InputService\MobileInputService.cs" />
+     <Compile Include="Assets\Scripts\Infrastructure\LoadLevelState.cs" />
      <Compile Include="Assets\Scripts\Hero\HeroAnimator.cs" />
      <Compile Include="Assets\Scripts\Infrastructure\ICoroutineRunner.cs" />
      <Compile Include="Assets\Scripts\Infrastructure\BootstrapState.cs" />

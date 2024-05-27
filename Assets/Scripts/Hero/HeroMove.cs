@@ -1,4 +1,3 @@
-using CameraLogic;
 using Infrastructure;
 using Services;
 using Services.InputService;
@@ -16,12 +15,7 @@ namespace Hero
         private void Awake()
         {
             _inputService = Game.InputService;
-        }
-
-        private void Start()
-        {
             _camera = Camera.main;
-            CameraFollow();
         }
 
         private void Update()
@@ -39,11 +33,6 @@ namespace Hero
 
             movementVector += Physics.gravity;
             CharacterController.Move(MovementSpeed * movementVector * Time.deltaTime);
-        }
-
-        private void CameraFollow()
-        {
-            _camera.GetComponent<CameraFollow>().Follow(gameObject);
         }
     }
 }

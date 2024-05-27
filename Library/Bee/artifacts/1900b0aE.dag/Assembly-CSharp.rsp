@@ -363,6 +363,7 @@
 "Assets/Scripts/Infrastructure/GameStateMachine.cs"
 "Assets/Scripts/Infrastructure/ICoroutineRunner.cs"
 "Assets/Scripts/Infrastructure/IState.cs"
+"Assets/Scripts/Infrastructure/LoadLevelState.cs"
 "Assets/Scripts/Infrastructure/SceneLoader.cs"
 "Assets/Scripts/Services/Constants.cs"
 "Assets/Scripts/Services/InputService/IInputService.cs"
